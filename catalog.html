@@ -2,7 +2,7 @@
 <html lang="ru">
     <head>
 	  <meta charset="utf-8">
-	  <title> Дизайн-студия Nёrd's</title>	
+	  <title>Catalog</title>	
 	</head>
 	<body>
 	    <header class="main-header">
@@ -24,7 +24,38 @@
 	    <section class="filters">
             <h2 class="visually-hidden">Фильтр</h2>
 	         <!-- Здесь будет форма -->
-	     </section>
+		<form action="https://echo.htmlacademy.ru" method="post">
+            <p>СЕТКА:</p>
+			  <label> <input type="radio" name="one" value="Адаптированная" checked>Адаптированная</label>
+                <br>
+              <label> <input type="radio" name="two" value="Фиксированная">Фиксированная</label>
+			    <br>
+			  <label> <input type="radio" name="three" value="Резиновая">Резиновая</label>
+			    <br>
+             
+			 
+			 <p>ОСОБЕННОСТИ:</p>
+			   <input type="checkbox" name="slaider" id="slaider-field" checked>
+               <label for="slaider-field">Cлайдер</label>
+			      <br>
+			   <input type="checkbox" name="advantages" id="advantages-field">
+               <label for="advantages-field">Блок преимущетв</label>
+			      <br>
+			   <input type="checkbox" name="news" id="news-field" checked>
+			   <label for="news-field">Новости</label>
+			      <br>
+			   <input type="checkbox" name="gallery" id="gallery-field">
+               <label for="gallery-field">Галерея</label>
+			      <br>
+			   <input type="checkbox" name="basket" id="basket-field">
+               <label for="basket-field">Корзина</label>
+			      <br>
+               <input type="submit" value="Показать">
+			   
+      </form>
+	    
+
+		</section>
 	   
 	    <section class="catalog">
             <h2 class="visually-hidden">Список готовых макетов</h2>
@@ -103,7 +134,11 @@
            </ul>
         
       </section>
+	     <a class="forma-mail-link" href="forma-mail.html">
+              Напишите нам
+            </a>
 	  </main>
+	        
 	   <footer>
 		     <ul class="foter-social">
 			   <li class="foter-social">
